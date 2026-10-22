@@ -11,7 +11,7 @@ This command-line program finds a path through a 2D grid maze. The user selects 
 
 - **BFS (Breadth-First Search):** explores in FIFO order and finds a shortest path when each move has equal cost.
 - **DFS (Depth-First Search):** explores in LIFO order; it may find a path, but does not guarantee the shortest one.
-- **A* Search:** prioritizes nodes using (f(n)=g(n)+h(n)), with Manhattan distance as the heuristic.
+- **A** Search:* prioritizes nodes using (f(n)=g(n)+h(n)), with Manhattan distance as the heuristic.
 
 The program reports the path, path cost (number of moves), nodes explored, and execution time. It uses only Python's standard library.
 
