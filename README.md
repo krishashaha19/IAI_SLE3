@@ -59,9 +59,3 @@ The exact path and timing depend on the selected algorithm and input. Run the pr
 
 This is a small educational CLI implementation, not a graphical maze visualizer. All moves have equal cost. A* is optimal for this grid when using the Manhattan heuristic and these movement rules. Runtime values are machine- and input-dependent, so no fixed benchmark is claimed.
 
-## 6. Before submission
-
-1. Run the program with at least one reachable maze and one maze with no possible route.
-2. Try BFS, DFS, and A* on the same maze.
-3. Save your own terminal screenshots if your faculty asks for them.
-4. Read the code and architecture notes so you can explain the design during viva.
